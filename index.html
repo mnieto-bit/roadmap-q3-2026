@@ -8,7 +8,7 @@
     --adq:#9aa50f; --fid:#e0700a; --sus:#4a9e00; --data:#ef6b3a; --inno:#d11277;
     --apps:#1597b3; --transf:#2f6fdb; --transv:#4a52c4; --ing:#8a9e00; --cob:#2b9fd6;
     --kaiz:#5b6470; --neg:#a0522d; --front:#0e7490; --back:#475569;
-    --lab:#0f766e; --people:#7c3aed; --com:#9a3412; --mktg:#db2777;
+    --lab:#0f766e; --people:#7c3aed; --com:#9a3412; --mktg:#db2777; --av:#7e22ce;
   }
   *{box-sizing:border-box;}
   @page{ size:A4; margin:14mm 12mm; }
@@ -167,6 +167,7 @@
     <span class="lg"><i style="background:var(--ing)"></i>Ingresos</span>
     <span class="lg"><i style="background:var(--cob)"></i>Coberturas</span>
     <span class="lg"><i style="background:var(--mktg)"></i>Marketing</span>
+    <span class="lg"><i style="background:var(--av)"></i>Audiovisual</span>
     <span class="lg"><i style="background:var(--neg)"></i>Negocio</span>
     <span class="lg"><i style="background:var(--front)"></i>Front</span>
     <span class="lg"><i style="background:var(--back)"></i>Back</span>
@@ -324,11 +325,13 @@
 
     <div class="inic">
       <div class="inic-t">Automatización del ciclo de vida (email-mkt)</div>
-      <div style="font-size:10px;color:#475569;margin:-1px 0 8px;line-height:1.45;">Automatizar los emails clave (carrito, onboarding) para acompañar y convertir mejor al usuario.</div>
+      <div style="font-size:10px;color:#475569;margin:-1px 0 8px;line-height:1.45;">Automatizar los emails clave (carrito, captación, retención y recaptación) para acompañar y convertir mejor al usuario.</div>
       <div class="epicas">
-        <span class="ep"><span class="badge" style="background:var(--neg)">Negocio</span>Automatización de email-mkt (carrito, onboarding)
+        <span class="ep"><span class="badge" style="background:var(--neg)">Negocio</span>Automatización de email-mkt
           </span>
         <span class="ep"><span class="badge" style="background:var(--data)">Data</span>Soporte de datos / segmentos de ciclo de vida</span>
+        <span class="ep"><span class="badge" style="background:var(--data)">Data</span>Actuar CRM: segmentos para experiencias personalizadas en Piano
+          </span>
       </div>
     </div>
 
@@ -336,21 +339,18 @@
       <div class="inic-t">Campaña de verano + cambio de marca</div>
       <div style="font-size:10px;color:#475569;margin:-1px 0 8px;line-height:1.45;">Aprovechar el verano y el cambio de marca como palanca de captación de suscriptores.</div>
       <div class="epicas">
+        <span class="ep"><span class="badge" style="background:var(--neg)">Negocio</span>Campaña de cambio de marca</span>
         <span class="ep"><span class="badge" style="background:var(--neg)">Negocio</span>Campaña de verano con palanca de cambio de marca
           </span>
       </div>
     </div>
 
     <div class="inic">
-      <div class="inic-t">Entender al registrado para convertirlo en suscriptor</div>
-      <div style="font-size:10px;color:#475569;margin:-1px 0 8px;line-height:1.45;">Conocer a registrados y suscriptores mediante encuestas (dos en paralelo) y mejorar la experiencia en Piano, para convertir y diseñar el producto en todos los tiers.</div>
+      <div class="inic-t">Voz de cliente</div>
+      <div style="font-size:10px;color:#475569;margin:-1px 0 8px;line-height:1.45;">Escuchar a registrados y suscriptores mediante encuestas para convertir y diseñar el producto en todos los tiers.</div>
       <div class="epicas">
         <span class="ep"><span class="badge" style="background:var(--sus)">SUSC</span>Encuesta a registrados (conversión a suscriptor)</span>
         <span class="ep"><span class="badge" style="background:var(--sus)">SUSC</span>Encuesta a suscriptores: qué quieren (Plan Plus y productos por tier)</span>
-        <span class="ep"><span class="badge" style="background:var(--data)">Data</span>Actuar CRM: segmentos para experiencias personalizadas en Piano
-          </span>
-        <span class="ep"><span class="badge" style="background:var(--sus)">SUSC</span>Mejora de la experiencia del suscriptor (carga de Piano)
-          </span>
       </div>
     </div>
 
@@ -362,24 +362,6 @@
           </span>
         <span class="ep"><span class="badge" style="background:var(--sus)">SUSC</span>Retención telefónica</span>
         <span class="ep"><span class="badge" style="background:var(--inno)">INNO</span>Experiencia on-site de retención</span>
-      </div>
-    </div>
-
-    <div class="inic">
-      <div class="inic-t">Valor exclusivo para el suscriptor</div>
-      <div style="font-size:10px;color:#475569;margin:-1px 0 8px;line-height:1.45;">Reforzar las ventajas exclusivas (buscador, newsletters, productos premium) que justifican la suscripción.</div>
-      <div class="epicas">
-        <span class="ep"><span class="badge" style="background:var(--sus)">SUSC</span>Productos exclusivos (NL personalizadas, buscador…)
-          </span>
-      </div>
-    </div>
-
-    <div class="inic">
-      <div class="inic-t">Control de sesiones</div>
-      <div style="font-size:10px;color:#475569;margin:-1px 0 8px;line-height:1.45;">Limitar las sesiones concurrentes del suscriptor y evolucionar el control (upgrade a Premium y cuentas corporativas), en web y app.</div>
-      <div class="epicas">
-        <span class="ep"><span class="badge" style="background:var(--sus)">SUSC</span>Control de sesiones · Fase 2 (upgrade Premium + cuentas corporativas)</span>
-        <span class="ep"><span class="badge" style="background:var(--apps)">Apps</span>Control de sesiones en app</span>
       </div>
     </div>
 
@@ -618,6 +600,58 @@
   </div>
 </section>
 
+<!-- ============ AUDIOVISUAL ============ -->
+<section class="linea" style="--c:var(--av)">
+  <div class="linea-head"><span class="nm">Audiovisual</span>
+    <span class="ob">Objetivo: impulsar los formatos de vídeo para captar y fidelizar audiencia, aumentar consumo e inventario y ganar presencia de marca</span></div>
+  <div class="linea-body">
+
+    <div class="inic">
+      <div class="inic-t">Inventario y herramientas de vídeo</div>
+      <div style="font-size:10px;color:#475569;margin:-1px 0 8px;line-height:1.45;">Herramientas y vías para producir más vídeo y ampliar el inventario: editor de clips, Daily Motion en Jarvis e integración de vídeo (Joins).</div>
+      <div class="epicas">
+        <span class="ep"><span class="badge" style="background:var(--inno)">INNO</span>Editor de clips para democratizar el vídeo</span>
+        <span class="ep"><span class="badge" style="background:var(--inno)">INNO</span>Integración de Daily Motion en Jarvis</span>
+        <span class="ep"><span class="badge" style="background:var(--inno)">INNO</span>Integración de vídeo (Joins)</span>
+      </div>
+    </div>
+
+    <div class="inic">
+      <div class="inic-t">Videopodcasts</div>
+      <div style="font-size:10px;color:#475569;margin:-1px 0 8px;line-height:1.45;">Videopodcasts para que la audiencia vuelva más: geopolítica (fideliza a quien viene por ese contenido) y entrevistas con políticos (más presencia en TV y más consumo).</div>
+      <div class="epicas">
+        <span class="ep"><span class="badge" style="background:var(--av)">AV</span>Videopodcast de geopolítica</span>
+        <span class="ep"><span class="badge" style="background:var(--av)">AV</span>Videopodcast de entrevistas con políticos</span>
+      </div>
+    </div>
+
+    <div class="inic">
+      <div class="inic-t">Nuevos formatos editoriales en vídeo</div>
+      <div style="font-size:10px;color:#475569;margin:-1px 0 8px;line-height:1.45;">Nuevos formatos de vídeo de la redacción (reportajes con Guillermo Cid) para captar audiencia.</div>
+      <div class="epicas">
+        <span class="ep"><span class="badge" style="background:var(--av)">AV</span>Reportajes con Guillermo Cid</span>
+      </div>
+    </div>
+
+    <div class="inic">
+      <div class="inic-t">Medición cualitativa de fidelidad de la audiencia</div>
+      <div style="font-size:10px;color:#475569;margin:-1px 0 8px;line-height:1.45;">Cambiar la medición de canales hacia métricas cualitativas de fidelidad de la audiencia (impacta en Adquisición).</div>
+      <div class="epicas">
+        <span class="ep"><span class="badge" style="background:var(--av)">AV</span>Nuevas métricas cualitativas de fidelidad en canales</span>
+      </div>
+    </div>
+
+    <div class="inic">
+      <div class="inic-t">Data para formatos audiovisuales</div>
+      <div style="font-size:10px;color:#475569;margin:-1px 0 8px;line-height:1.45;">Analizar el dato para lanzar nuevos formatos en verticales que activen a la audiencia que ya tenemos.</div>
+      <div class="epicas">
+        <span class="ep"><span class="badge" style="background:var(--data)">Data</span>Identificar verticales y formatos para activar a la audiencia existente</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 <!-- ============ MARKETING ============ -->
 <section class="linea" style="--c:var(--mktg)">
   <div class="linea-head"><span class="nm">Marketing</span>
@@ -631,6 +665,14 @@
         <span class="ep"><span class="badge" style="background:var(--mktg)">Mktg</span>Definición de posicionamiento de marca</span>
         <span class="ep"><span class="badge" style="background:var(--mktg)">Mktg</span>Implicaciones en producto y diseño</span>
         <span class="ep"><span class="badge" style="background:var(--mktg)">Mktg</span>Plan de comunicación y campañas</span>
+      </div>
+    </div>
+
+    <div class="inic">
+      <div class="inic-t">Cambio de marca</div>
+      <div style="font-size:10px;color:#475569;margin:-1px 0 8px;line-height:1.45;">Creación de la narrativa del cambio de marca de El Confidencial 2026: el relato y el posicionamiento que guían el rebranding y sus campañas.</div>
+      <div class="epicas">
+        <span class="ep"><span class="badge" style="background:var(--mktg)">Mktg</span>Narrativa y posicionamiento del cambio de marca (Brandfor)</span>
       </div>
     </div>
 
